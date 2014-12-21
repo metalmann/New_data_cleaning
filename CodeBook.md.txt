@@ -1,0 +1,24 @@
+1. The result data is clean_data.csv
+2. It has 174 columns listed in the file "List_of_columns.txt"
+3. These column names are suffixed by either .sd or .men
+4. The columns ending with .sd have the standard deviation for the variable, by activity and by subject.
+
+For example: The column tBodyGyro-std()-X.sd has standard deviation for feature tBodyGyro-std()-X by activity and by subject
+
+5. The columns ending with .men have the average for the variable, by activity and by subject.
+
+For example: The column tBodyGyro-std()-X.men has average for feature tBodyGyro-std()-X by activity and by subject
+
+5. Data in clean_data.csv is a result of:
+
+a. Merging the training and the test sets to create one data set.
+
+b. Extract of the measurements on the mean and standard deviation for each measurement.
+ 
+c. Uses descriptive activity names to name the activities in the data set
+
+d. Appropriately labels the data set with descriptive variable names. 
+
+e. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+I have also calculated the std deviation for the features.
